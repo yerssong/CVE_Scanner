@@ -1,0 +1,83 @@
+{
+	"CVE" : [{
+			"CVE_name" : "CVE-2020-0796",
+			"Vul_Type" : "RCE(Remote Code Excution)",
+			"win10_patch_num" : {"18362.720" : 4551762, "18363.720" : 4551762},
+			"win7_patch_num" : null,
+			"port_num" : [139, 445],
+			"CVSS_Score" : 10.0,
+			"Description" : "SMB ver.3 protocol Vulnerability"
+		},
+		{
+			"CVE_name" : "CVE-2020-1206",
+			"Vul_Type" : "RCE(Remote Code Excution)",
+			"win10_patch_num" : {"18362.900" : 4560960, "18363.900" : 4560960, "19031.329" : 4557957},
+			"win7_patch_num" : null,
+			"port_num" : [139, 445],
+			"CVSS_Score" : 7.5,
+			"Description" : "SMB ver.3 protocol Vulnerability"
+		},
+		{
+			"CVE_name" : "CVE-2020-1301",
+			"Vul_Type" : "RCE(Remote Code Excution)",
+			"win10_patch_num" : {"10240.18608" : 4561649, "14393.3750" : 4561616, "16299.1932" : 4561602, "17134.1550" : 4561621, "17763.1282" : 4561608, "18362.900": 4560960,
+				"18363.900" : 4560960, "19031.329" : 4557957},
+			"win7_patch_num" : null,
+			"port_num" : [139, 445],
+			"CVSS_Score" : 8.8,
+			"Description" : "SMB ver.1 protocol Vulnerability"
+		},
+		{
+			"CVE_name" :  "CVE-2018-0743",
+			"Vul_Type" : "Privilege Escalation",
+			"win10_patch_num" : {"15063.850" : 4056891, "16299.192" : 405689},
+			"win7_patch_num" : {"7601" : 999},
+			"port_num" : null,
+			"CVSS_Score" : 7.0,
+			"Description" : "Windows Subsystem for Linux Elevation of Privilege"
+		},
+		{
+			"CVE_name" : "CVE-2018-8639",
+			"Vul_Type" : "Privilege Escalation",
+			"win10_patch_num" : {"10240.18063" : 4471323, "14393.2665" : 4471321, "15063.1506" : 4471327, "16299.846" : 4471329, "17134.471" : 4471324, "17763.194" : 4471332},
+			"win7_patch_num" : null,
+			"port_num" : null,
+			"CVSS_Score" : 7.8,
+			"Description" : "Win32k Elevation of Privilege"
+		},
+		{
+			"CVE_name" : "CVE-2019-0803",
+			"Vul_Type" : "Privilege Escalation",
+			"win10_patch_num" : {"10240.18186" : 4493745, "14393.2906" : 4493470, "15063.1746" : 4493474, "16299.1087" : 4493441, "17134.706" : 4493464, "17763.437" : 4493509},
+			"win7_patch_num" : null,
+			"port_num" : null,
+			"CVSS_Score" : 7.8,
+			"Description" : "Win32k Elevation of Privilege"
+		},
+		{
+			"CVE_name" : "CVE-2019-1458",
+			"Vul_Type" : "Privilege Escalation",
+			"win10_patch_num" : {"10240.18427" : 4530681, "14393.3384" : 4530689},
+			"win7_patch_num" : null,
+			"port_num" : null,
+			"CVSS_Score" : 7.8,
+			"Description" : "Win32k Elevation of Privilege"
+		},
+		{
+			"CVE_name" : "test",
+			"Vul_Type" : "test",
+			"win10_patch_num" : null,
+			"win7_patch_num" : {"7601" : 9595951},
+			"port_num" : null,
+			"CVSS_Score" : 0.0,
+			"Description" : "Win32k Elevation of Privilege"
+		}
+	],
+	"WIN10_build" : [{
+			"10240": 1507, "10586": 1511, "14393": 1607, "15063": 1703, "16299": 1709, "17134": 1803,
+			"17763": 1809, "18362": 1903, "18363": 1909, "19041": 2004
+	}],
+	"WIN7_build" : [{
+		"7601" : 7601
+	}]
+}
